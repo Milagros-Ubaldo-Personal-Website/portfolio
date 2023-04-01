@@ -1,0 +1,42 @@
+
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: rgb(216, 218, 219);
+}
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ceccc9;
+}
+
+li {
+    float: right;
+}
+li a {
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: black;
+}
+.active {
+    background-color: goldenrod;
+}
+
+div {
+    font-family:'Gill Sans';
+    font-style: italic;
+    font-size: 20px;
+    background-color: #ceccc9;
+    width: 80%;
+    margin: auto;
+    border: 15px solid goldenrod;
+    padding: 50px;
+    margin: 20px;
+}
