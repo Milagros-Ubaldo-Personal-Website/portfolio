@@ -4,6 +4,24 @@ html {
     font-size: 16px;
     background-color: rgb(216, 218, 219);
 }
+h1 {
+    text-align: left;
+    font-size: 30px;
+}
+h2 {
+    text-align: left;
+    font-size: 18px;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+p {
+    display:block;
+}
+.about {
+    font-family: 'Lucida Sans';
+    font-style: italic;
+}
     ul {
     list-style-type: none;
     margin: 0;
@@ -23,13 +41,13 @@ li a {
     text-decoration: none;
 }
 li a:hover:not(.active){
-    background-color: black;
+    background-color: rgb(236, 193, 164);
 }
 .active {
     background-color: goldenrod;
 }
 
-div {
+.index {
     font-family:'Gill Sans';
     font-style: italic;
     font-size: 20px;
@@ -39,4 +57,34 @@ div {
     border: 15px solid goldenrod;
     padding: 50px;
     margin: 20px;
+}
+main {
+    padding:
+    padding-top: 64px;
+    padding-right: 24px;
+    padding-bottom: 96px;
+    padding-left: 24px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+
+}
+.logo {
+    width: 40px;
+    height:40px;
+}
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+ 
+ }
+.image {
+    flex-basis:40%
+}
+.text {
+    font-size:20px;
+    padding-left: 20px;
 }
